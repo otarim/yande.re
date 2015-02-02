@@ -1,0 +1,18 @@
+<div class="pop-containner">
+	<div class="pop-content" data-event="popDrag">
+		<div class="pop-content-post">
+			<img src="{{file_url}}" alt="" width="{{cwidth}}" height="{{cheight}}">
+		</div>
+	</div>
+	<div class="pop-aside" data-event="popDrag">
+		<div class="pop-aside-detail">
+			<ul>
+				<li><em>author</em>#{{author}}</li>
+				<li><em>createTime</em>#{{created_at}}</li>
+				<li><em>resolution</em>#{{width}}x{{height}}</li>
+				<li><em>size</em>#{{file_size}}</li>
+				<li><em>md5</em>#{{md5}}</li>
+			</ul>
+		</div>
+	</div>
+</div>

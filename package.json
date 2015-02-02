@@ -1,0 +1,12 @@
+{
+  "name": "yande.re",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "width": 1024,
+    "height": 600
+  },
+  "dependencies": {
+    "q": "^1.1.2"
+  }
+}

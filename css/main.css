@@ -1,0 +1,56 @@
+#content {position: relative;margin: 20px auto 50px;zoom: 1}
+.sp {position: absolute;box-shadow: 0 0 3px rgba(0,0,0,.5);overflow: hidden;width: 220px;border: 1px solid #bebebe;background: #fff;}
+.sp-inner {position: relative;overflow: hidden;}
+.sp-inner p {position: absolute;bottom: -200px;left: 15px;right: 15px;transition: .5s;}
+.sp-inner p.active {bottom: 20px}
+.sp-inner em {display: inline-block;font-size: 12px;white-space: nowrap;max-width: 5em;text-overflow: ellipsis;overflow: hidden;/* margin: 5px 5px 0 0; */font-style: normal;line-height: 16px;padding: 3px;color: #fff;background: rgba(244,56,78,.5);margin: 2px;cursor: pointer;}
+.sp-inner em:hover {background: rgba(244,56,78,.7)}
+.sp-download {display: inline-block;width: 100%;text-align: center;color: #fff;background: rgba(56,121,217,.7);line-height: 24px;cursor: pointer;}
+.sp-download:hover {background: rgba(56,121,217,.9)}
+.sp:hover {box-shadow: 0 0 5px rgba(0,0,0,.8)}
+.sp-m {margin: 10px;border: 1px solid rgba(0,0,0,.2)}
+.sp-cm {overflow: hidden;zoom: 1;margin: 0 10px 10px;}
+.sp-cm-avt {width: 28px;height: 28px;float: left;margin-right: 10px;}
+.sp-cm p {overflow: hidden;zoom: 1;color: #777;font-size: 12px;line-height: 16px;text-align: center;}
+.sp-cm em {font-style: normal;}
+.sp-cm strong {font-weight: bold;color: #333;margin: 0 5px;}
+#fetch {background: -webkit-linear-gradient(top,rgb(250,250,250),rgb(245,245,245));box-shadow: 0 0 3px rgba(0,0,0,.5);text-align: center;line-height: 25px;position: absolute;bottom: -25px;cursor: pointer;*zoom: 1;width: 998px;border: 1px solid #bebebe;}
+.r-ga {
+    height: 20px;
+    width: 5%;
+    position: fixed;
+    top: 0;left: 0;
+    overflow: hidden;
+    background: -webkit-repeating-linear-gradient(45deg, black, black 10px, yellow 10px, yellow 20px);
+    -webkit-animation: name .5s linear infinite;
+}
+@-webkit-keyframes name {
+    0% {
+        background: -webkit-repeating-linear-gradient(45deg, black, black 10px, yellow 10px, yellow 20px);
+    }
+    50% {
+        background: -webkit-repeating-linear-gradient(45deg, yellow, yellow 10px, black 10px, black 20px);
+    }
+    100% {
+        background: -webkit-repeating-linear-gradient(45deg, black, black 10px, yellow 10px, yellow 20px);
+    }
+}
+
+.pop-containner {background: #fff;display: -webkit-box;}
+.pop-content {padding: 20px;background: #333;}
+.pop-aside {padding: 10px;}
+.pop-aside li {list-style: none;}
+.nav-bar nav {display: -webkit-box;-webkit-box-align: center;-webkit-box-pack: center;height: 50px;background: palevioletred;transition: .5;}
+.nav-bar .logo {position: absolute;top: 0;left: -20px;}
+.nav-bar-fixed nav {position: fixed;width: 100%;z-index: 100;box-shadow: 0 5px rgba(0,0,0,.2);top: 0;}
+.nav-bar nav .search-bar {margin-bottom: 0;border-radius: 0;width: 250px;}
+.search-wrap {padding: 5px;background: rgba(255,255,255,.4);}
+.nav-bar .search-btn {height: 30px;border: none;margin-left: 10px;cursor: pointer;padding: 0 1em;color: #fff;background: rgba(230, 152, 178, 0.77);font-size: 16px;transition: .5s;}
+.nav-bar .search-btn:focus {outline: none;}
+.nav-bar .search-btn:hover {background: rgba(230, 152, 178, 0.9);}
+.usercenter {position: absolute;right: 128px;background: rgba(255,255,255,.5);top: 10px;padding: 5px 10px;}
+.download {position: absolute;width: 230px;background: #fff;box-shadow: 1px 1px 5px rgba(0,0,0,.3);z-index: 101;left: -115px;top: 40px;padding: 10px;display: none;}
+.usercenter-active .download {display: block;}
+.download-bar p {overflow: hidden;text-overflow: ellipsis;width: 90%;margin: 0;font-size: 12px;color: #555;}
+.download-bar {margin-bottom: 5px;transition: .5s;}
+.download-bar progress {width: 100%;}
