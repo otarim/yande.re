@@ -1,7 +1,9 @@
-otaCode
+yande.re
 =======
-just for fun....
+萌妹客户端（正在完善中...）
 
-[otarim.com](http://www.otarim.com)
+![http://ww2.sinaimg.cn/large/9bfe0b14gw1eouscosg08j20rw0kejxo.jpg](http://ww2.sinaimg.cn/large/9bfe0b14gw1eouscosg08j20rw0kejxo.jpg)
+
+
 
 
